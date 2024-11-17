@@ -9,6 +9,10 @@ const routes = [
     component: HomePage,
   },
   {
+    path: '/index.html',
+    redirect: '/'
+  },
+  {
     path: '/settings',
     name: 'Settings',
     component: SettingsPage,
